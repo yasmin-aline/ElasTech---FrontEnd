@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastra Usuario</title>
+</head>
+<body>
+<table width="100%" border="0" style="background-color:black;">
+    <tr>
+        <td align="left"><img src="logo.png" alt="logo soulcode" width="150px"></td>
+        <td align="center">
+            <a href="cadastra_usuario.html" style="color: white; text-decoration: none;">Cadastrar Usuario   &nbsp; &nbsp;</a>
+            <a href="alterar_usuario.html" style="color: white; text-decoration: none;">Alterar o Usuario   &nbsp;&nbsp; </a>
+            <a href="excluir_usuario.html" style="color: white;text-decoration: none; ">Excluir o Usuario  &nbsp; &nbsp; </a>
+            <a href="mostrar_usuario.html" style="color: white;text-decoration: none; ">Mostrar Usuarios  &nbsp; &nbsp; </a>
+        </td>
+        <td align="right"><button>Faça seu login</button></td>
+    </tr>
+</table>
+
+<h1>Formulario de Cadastro de Usuario</h1>
+<label>Nome: </label><br>
+<input type="text" id="nome" name="nome"><br>
+<label>Senha:</label><br>
+<input type="password" id="senha" name="senha"><br>
+<label>Email:</label><br>
+<input type="email" id="email" name="email">
+<br><label>Estado</label><br>
+<select id="estado" name="estado">
+    <option>RJ</option>
+    <option>RS</option>
+    <option>SP</option>
+</select>
+<br><label>Voce aceita os termos e condicoes de uso</label><br>
+<input type="checkbox" id="termos" name="termos" value="sim"> <br>
+
+<input type="radio" id="radiosim" name="radiosim" value="sim">
+<label>Sim</label>
+<input type="radio" id="radionao" name="radionao" value="nao">
+<label>Não</label>
+<br>
+<button type="submit" >Enviar Dados</button>
+
+
+</body>
+</html>
